@@ -1,5 +1,5 @@
 # LanguageDetector
-Language detector without any language detection library
+Language detector made without any language detection library (using cosine similarity on N-Grams)
 
 Ldetect is the textual version to be executed on a console
 
@@ -10,6 +10,8 @@ Les deux options sont cumulables (-fd ou -df).
 
 Executing Ldetect.py without any argument or with the --help option will display additional instructions
 
-Ldetect_GUIver is the GUI version using tkinter
+Ldetect_GUIver is a basic GUI version using tkinter
 
 Results for long texts are good (obviously), short sentences can have incorrect evaluations
+
+Training corpus was made with Universal Dependencies.
