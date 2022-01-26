@@ -11,3 +11,5 @@ Les deux options sont cumulables (-fd ou -df).
 Executing Ldetect.py without any argument or with the --help option will display additional instructions
 
 Ldetect_GUIver is the GUI version using tkinter
+
+Results for long texts are good (obviously), short sentences can have incorrect evaluations
